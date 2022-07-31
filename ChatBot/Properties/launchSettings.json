@@ -1,0 +1,23 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5215",
+      "sslPort": 44306
+    }
+  },
+  "profiles": {
+    "ChatBot": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchUrl": "swagger",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7019;http://localhost:5019",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "TelegramToken": "1731789552:AAGfhN5lEI8wuOLhsBiWo9bcB_JeqwjtCcc"
+      }
+    }
+  }
+}
